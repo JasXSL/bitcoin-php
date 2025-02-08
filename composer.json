@@ -1,8 +1,8 @@
 {
-  "name": "bitwasp/bitcoin",
+  "name": "jasxsl/bitcoin",
   "description": "PHP Bitcoin library with functions for transactions, signatures, serialization, Random/Deterministic ECDSA keys, blocks, RPC bindings",
   "type": "library",
-  "homepage": "https://github.com/bit-wasp/bitcoin-php",
+  "homepage": "https://github.com/jasxsl/bitcoin-php",
   "license": "Unlicense",
   "authors": [
     {
@@ -13,13 +13,13 @@
   ],
   "autoload": {
     "psr-4": {
-      "BitWasp\\Bitcoin\\": "src/"
+      "JasXSL\\Bitcoin\\": "src/"
     },
     "files": ["src/Script/functions.php"]
   },
   "autoload-dev": {
     "psr-4": {
-      "BitWasp\\Bitcoin\\Tests\\": "tests/"
+      "JasXSL\\Bitcoin\\Tests\\": "tests/"
     }
   },
   "require": {
