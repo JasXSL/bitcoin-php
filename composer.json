@@ -13,13 +13,13 @@
   ],
   "autoload": {
     "psr-4": {
-      "bitwasp\\Bitcoin\\": "src/"
+      "Bitwasp\\Bitcoin\\": "src/"
     },
     "files": ["src/Script/functions.php"]
   },
   "autoload-dev": {
     "psr-4": {
-      "bitwasp\\Bitcoin\\Tests\\": "tests/"
+      "Bitwasp\\Bitcoin\\Tests\\": "tests/"
     }
   },
   "require": {
